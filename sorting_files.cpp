@@ -459,73 +459,73 @@ int main()
     std::ifstream file20("file20.txt");
     std::ofstream filei("output9.txt");
 	
-	file.close();
-	filea.close();
+    file.close();
+    filea.close();
     fileb.close();
     filec.close();
-	filed.close();
+    filed.close();
     filee.close();
     filef.close();
     fileg.close();
-	fileh.close();
+    fileh.close();
     filei.close();
 
-	std::ifstream out("output.txt");
-	std::ifstream out1("output1.txt");
-	std::ofstream fout("put.txt");
+    std::ifstream out("output.txt");
+    std::ifstream out1("output1.txt");
+    std::ofstream fout("put.txt");
 
-	std::ifstream out2("output2.txt");
-	std::ifstream out3("output3.txt");
-	std::ofstream fout1("put1.txt");
+    std::ifstream out2("output2.txt");
+    std::ifstream out3("output3.txt");
+    std::ofstream fout1("put1.txt");
 
-    std::ifstream out4("output4.txt");
-	std::ifstream out5("output5.txt");
-	std::ofstream fout2("put2.txt");
+    std::ifstream out4("output4.txt"); 
+    std::ifstream out5("output5.txt");
+    std::ofstream fout2("put2.txt");
 
-	std::ifstream out6("output6.txt");
-	std::ifstream out7("output7.txt");
-	std::ofstream fout3("put3.txt");
+    std::ifstream out6("output6.txt");
+    std::ifstream out7("output7.txt");
+    std::ofstream fout3("put3.txt");
 
     std::ifstream out8("output8.txt");
-	std::ifstream out9("output9.txt");
-	std::ofstream fout4("put4.txt");
+    std::ifstream out9("output9.txt");
+    std::ofstream fout4("put4.txt");
 
     fout.close();
     fout1.close();	
     fout2.close();
     fout3.close();			
-	fout4.close();
+    fout4.close();
 
     std::ifstream put("put1.txt");
-	std::ifstream put1("put2.txt");
-	std::ofstream fput("fput.txt");
+    std::ifstream put1("put2.txt");
+    std::ofstream fput("fput.txt");
     
     fput.close();
 
-	std::ifstream put2("put3.txt");
-	std::ifstream put3("put4.txt");
-	std::ofstream fput1("fput1.txt");
+    std::ifstream put2("put3.txt");
+    std::ifstream put3("put4.txt");
+    std::ofstream fput1("fput1.txt");
     
     fput1.close();
 
     std::ifstream afin("fput.txt");
-	std::ifstream afin2("fput1.txt");
-	std::ofstream affin("afin.txt");
+    std::ifstream afin2("fput1.txt");
+    std::ofstream affin("afin.txt");
 
     affin.close();
 
-	std::ifstream finall("put.txt");
+    std::ifstream finall("put.txt");
     std::ifstream finall1("afin.txt");
-	std::ofstream ofinal("ofinal.txt");
+    std::ofstream ofinal("ofinal.txt");
 	
     ofinal.close();
 
-	merge_to_file(file1, file2, file);		
- 	merge_to_file(file3, file4, filea);
+    merge_to_file(file1, file2, file);		
+    merge_to_file(file3, file4, filea);
     merge_to_file(file5, file6, fileb);
- 	merge_to_file(file7, file8, filec);
+    merge_to_file(file7, file8, filec);
     merge_to_file(file9, file10, filed);
- 	merge_to_file(file11, file12, filee);
+    merge_to_file(file11, file12, filee);
     merge_to_file(file13, file14, filef);
     merge_to_file(file15, file16, fileg); 
     merge_to_file(file17, file18, fileh);
