@@ -420,44 +420,44 @@ int main()
     ReadFile.close();
     
     std::ifstream file1("file1.txt");
-	std::ifstream file2("file2.txt");
-	std::ofstream file ("output.txt");
+    std::ifstream file2("file2.txt");
+    std::ofstream file ("output.txt");
 
     std::ifstream file3("file3.txt");
-	std::ifstream file4("file4.txt");
-	std::ofstream filea("output1.txt");
+    std::ifstream file4("file4.txt");
+    std::ofstream filea("output1.txt");
  
     std::ifstream file5("file5.txt");
-	std::ifstream file6("file6.txt");
-	std::ofstream fileb("output2.txt");
+    std::ifstream file6("file6.txt");
+    std::ofstream fileb("output2.txt");
 
     std::ifstream file7("file7.txt");
-	std::ifstream file8("file8.txt");
-	std::ofstream filec("output3.txt");
+    std::ifstream file8("file8.txt");
+    std::ofstream filec("output3.txt");
 
     std::ifstream file9("file9.txt");
-	std::ifstream file10("file10.txt");
-	std::ofstream filed("output4.txt");
+    std::ifstream file10("file10.txt");
+    std::ofstream filed("output4.txt");
 
     std::ifstream file11("file11.txt");
-	std::ifstream file12("file12.txt");
-	std::ofstream filee("output5.txt");
+    std::ifstream file12("file12.txt");
+    std::ofstream filee("output5.txt");
  
     std::ifstream file13("file13.txt");
-	std::ifstream file14("file14.txt");
-	std::ofstream filef("output6.txt");
+    std::ifstream file14("file14.txt");
+    std::ofstream filef("output6.txt");
 
     std::ifstream file15("file15.txt");
-	std::ifstream file16("file16.txt");
-	std::ofstream fileg("output7.txt");
+    std::ifstream file16("file16.txt");
+    std::ofstream fileg("output7.txt");
 
     std::ifstream file17("file17.txt");
-	std::ifstream file18("file18.txt");
-	std::ofstream fileh("output8.txt");
+    std::ifstream file18("file18.txt");
+    std::ofstream fileh("output8.txt");
 
     std::ifstream file19("file19.txt");
-	std::ifstream file20("file20.txt");
-	std::ofstream filei("output9.txt");
+    std::ifstream file20("file20.txt");
+    std::ofstream filei("output9.txt");
 	
 	file.close();
 	filea.close();
@@ -527,18 +527,18 @@ int main()
     merge_to_file(file9, file10, filed);
  	merge_to_file(file11, file12, filee);
     merge_to_file(file13, file14, filef);
- 	merge_to_file(file15, file16, fileg); 
-	merge_to_file(file17, file18, fileh);
- 	merge_to_file(file19, file20, filei);
+    merge_to_file(file15, file16, fileg); 
+    merge_to_file(file17, file18, fileh);
+    merge_to_file(file19, file20, filei);
 
- 	merge_to_file(out, out1, fout);		
- 	merge_to_file(out2, out3, fout1);
+    merge_to_file(out, out1, fout);		
+    merge_to_file(out2, out3, fout1);
     merge_to_file(out4, out5, fout2);
- 	merge_to_file(out6, out7, fout3);
+    merge_to_file(out6, out7, fout3);
     merge_to_file(out8, out9, fout4);
 
- 	merge_to_file(put, put1, fput);	
- 	merge_to_file(put2, put3, fput1);
+    merge_to_file(put, put1, fput);	
+    merge_to_file(put2, put3, fput1);
     merge_to_file(afin, afin2, affin);
     merge_to_file(finall, finall1, ofinal);
 }
